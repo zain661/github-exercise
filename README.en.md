@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/47659847/83018829-9495b380-a02e-11ea-9979-4d9b3735af61.png)
 
-3. Press F5 to run the file and see what you wrote inside the console.log get immediately printed inside the terminal.
+3. Press F5 to run the file and see what you wrote inside the console.log get immediately printed inside the terminal. 
 
 
 ## Sharing your code on Github
