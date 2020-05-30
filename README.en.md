@@ -4,21 +4,21 @@
 
 ![image](https://user-images.githubusercontent.com/47659847/83018829-9495b380-a02e-11ea-9979-4d9b3735af61.png)
 
-3. Press F5 to run the file and see what you wrote inside the console.log get immediately printed inside the terminal. 
+3. Press **F5** to run the file and see what you wrote inside the console.log get immediately printed inside the terminal.
 
 
 ## Sharing your code on Github
 The changes you have just made are only on your local machine. If you go to Github and open up the repo we cloned, you’ll notice that nothing has really changed there.
 
 To see the changes on Github, write these commands on the terminal:
-- git add index.js then hit Enter.
-- git commit -m “Wrote my first JS code” then hit Enter.
+- `git add index.js` then hit Enter.
+- `git commit -m "Wrote my first JS code"` then hit Enter.
 - Pushing your code has 2 options:
-  - If the repo you're pushing to is your own, use git push origin master then hit Enter.
+  - If the repo you're pushing to is your own, use `git push origin master` then hit Enter.
   - If the repo you're pushing to is a forked repo, follow these steps:
-    - First, you need to set the remote repo to the repo you forked from, so you can pull the latest changes from them. Use this command to do so: git remote add upstream (original repo link).
-    - Second, make sure you did the first step correctly using git remote -v. You should see 4 links; 2 of them are the original rep link and the other 2 are the forked repo links which have your username in.
-    - Lastly, use git push origin master to push to your forked repo.
+    - First, you need to set the remote repo to the repo you forked from, so you can pull the latest changes from them. Use this command to do so: `git remote add upstream (original repo link)`.
+    - Second, make sure you did the first step correctly using `git remote -v`. You should see 4 links; 2 of them are the original rep link and the other 2 are the forked repo links which have your username in.
+    - Lastly, use `git push origin master` to push to your forked repo.
 
 ## The basic git commands you’ll use in every project
 - **git status:** This command shows the names of the files to which you made a change.
@@ -33,13 +33,13 @@ To see the changes on Github, write these commands on the terminal:
 
 - **git push [remote name] [branch name]:** we use this command to push or move all the changes you just added and committed to Github so it can be online for everyone to see.
 
-~ To actually push you have to specify the remote location that you are pushing to. Here we’re pushing to master which is the place where all the final changes are going to be in. So use this command **git push origin master**.
+~ To actually push you have to specify the remote location that you are pushing to. Here we’re pushing to master which is the place where all the final changes are going to be in. So use this command `git push origin master`.
 
 
 ## Some notes about the command git push origin ...
-Origin is the default short name of your online repo. You can clearly see this if you run this command : **git remote**.
+Origin is the default short name of your online repo. You can clearly see this if you run this command : `git remote`.
 
-Use this command **git remote -v** and you’ll get a short name of the repo, which is **origin**, and its URL, which is the URL you see in the browser tab of your Github account just without the **.git** part.
+Use this command `git remote -v` and you’ll get a short name of the repo, which is **origin**, and its URL, which is the URL you see in the browser tab of your Github account just without the **.git** part.
 
 You can see next to one of the URLs the word **push**. This tells you that you can use this URL to push to.
 
