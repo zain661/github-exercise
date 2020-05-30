@@ -1,17 +1,17 @@
 # Learning how to use git commands
-1. Go to the `first-test.js` file and type this: `console.log("Hello, World!");` then save it.
+1. Go to the `index.js` file and type this: `console.log("Hello, World!");` then save it.
 2. Open the terminal and click on the debug console as you see in the picture below:
 
 ![image](https://user-images.githubusercontent.com/47659847/83018829-9495b380-a02e-11ea-9979-4d9b3735af61.png)
 
-3. Press F5 to run the file and see what you wrote inside the console.log get immediately printed inside the terminal.
+3. Press F5 to run the file and see what you wrote inside the console.log get immediately printed inside the terminal. 
 
 
 ## Sharing your code on Github
 The changes you have just made are only on your local machine. If you go to Github and open up the repo we cloned, you’ll notice that nothing has really changed there.
 
 To see the changes on Github, write these commands on the terminal:
-- git add first-test.js then hit Enter.
+- git add index.js then hit Enter.
 - git commit -m “Wrote my first JS code” then hit Enter.
 - Pushing your code has 2 options:
   - If the repo you're pushing to is your own, use git push origin master then hit Enter.
@@ -45,9 +45,9 @@ You can see next to one of the URLs the word **push**. This tells you that you c
 
 
 # Lecture Practice set
-- Change the sentence inside the `console.log` to say **"Hello"** then **your name**.
-- Press `F5` to make sure you got it right.
+- Change the string inside the `console.log` to say **"Hello"** then **your name**.
+- Press `F5` to run the file and make sure you solved the first step right.
 - Use **git's basic commands** to `add` and `commit` your changes.
 - Use the commands we learned in order to get the URL of the remote repo and push to it.
-- Change the sentence again to say **"Goodbye"** then **your name**.
+- Change the string again to say **"Goodbye"** then **your name**.
 - Use **git's basic commands** to `add` and `commit` your changes then push again but this time use the word origin instead of the URL. Do you notice any differences or are they the same?
