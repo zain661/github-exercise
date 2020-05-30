@@ -29,7 +29,7 @@ To see the changes on Github, write these commands on the terminal:
 
 **Note:**
 
-    When you use the git add command, you will be preparing or staging the files you added for a commit. You will have the files in something called the staging area which allows you to easily remove files. If you put any file there by mistake or you just don’t want the changes you made, you can just remove them all at once.
+When you use the git add command, you will be preparing or staging the files you added for a commit. You will have the files in something called the staging area which allows you to easily remove files. If you put any file there by mistake or you just don’t want the changes you made, you can just remove them all at once.
 
 - **git push [remote name] [branch name]:** we use this command to push or move all the changes you just added and committed to Github so it can be online for everyone to see.
 
