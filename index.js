@@ -6,6 +6,6 @@
 
 
 
-// Change the string again to say "Goodbye" then your name
+// change the string again to say "Goodbye" then your name
 
 
