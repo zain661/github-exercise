@@ -45,7 +45,7 @@ You can see next to one of the URLs the word **push**. This tells you that you c
 
 
 # Lecture Practice set
-- Change the string inside the `console.log` to say **"Hello"** then **your name**.
+- Inside `updated-index.js` file, change the string inside the `console.log` to say **"Hello"** then **your name**.
 - Press `F5` to run the file and make sure you solved the first step right.
 - Use **git's basic commands** to `add` and `commit` your changes.
 - Use the commands we learned in order to get the URL of the remote repo and push to it.
