@@ -2,4 +2,4 @@
 
 
 // write the console.log code with goodbye in it underneath
-
+console.log("hello zayn");
